@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IronCore Fitness - Build strength. Build confidence. Professional gym and personal training in Nigeria for all fitness levels.">
+    <title>IronCore Fitness | Build Strength. Build Confidence.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">IRON<span>CORE</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>BUILD STRENGTH. <span>BUILD CONFIDENCE.</span></h1>
+            <p class="tagline">Transform your body. Transform your life. Join Nigeria's premier fitness community.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+                <a href="#programs" class="btn btn-secondary">View Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <div class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Active Members</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Expert Trainers</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Classes Weekly</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Gym Access</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <h2>WELCOME TO <span class="highlight">IRONCORE FITNESS</span></h2>
+            <p class="subtitle">Your journey to a stronger, healthier you starts here</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>IronCore Fitness was founded with a simple mission: to create a fitness community where everyone, regardless of their starting point, can achieve their health and fitness goals. We believe that strength isn't just physical—it's mental, emotional, and social.</p>
+                <p>Located in the heart of Nigeria, we've built a state-of-the-art facility equipped with world-class equipment and staffed by certified professionals who are passionate about helping you succeed.</p>
+                <h3>Our Philosophy</h3>
+                <p>We don't believe in quick fixes or fad diets. We believe in sustainable, science-based training methods that deliver real, lasting results. Whether you're looking to lose weight, build muscle, improve athletic performance, or simply feel better in your daily life, we have the expertise and resources to help you get there.</p>
+                <p>At IronCore, we're more than a gym—we're a family. We celebrate every victory, support each other through challenges, and push one another to be our best selves.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop" alt="IronCore Fitness Gym" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs">
+        <div class="section-header">
+            <h2>OUR <span class="highlight">PROGRAMS</span></h2>
+            <p class="subtitle">Customized training solutions for every fitness level and goal</p>
+        </div>
+        <div class="programs-grid">
+            <div class="program-card">
+                <div class="program-image"><i class="fa-solid fa-dumbbell"></i></div>
+                <div class="program-content">
+                    <h3>Strength Training</h3>
+                    <p>Build lean muscle mass, increase power, and transform your physique with our comprehensive strength training program.</p>
+                    <ul class="program-features">
+                        <li>Progressive overload methodology</li>
+                        <li>Powerlifting and bodybuilding techniques</li>
+                        <li>Proper form and injury prevention</li>
+                        <li>Personalized workout plans</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <div class="program-image"><i class="fa-solid fa-fire"></i></div>
+                <div class="program-content">
+                    <h3>Weight Loss Programs</h3>
+                    <p>Sustainable fat loss through strategic training and nutrition guidance that fits your lifestyle.</p>
+                    <ul class="program-features">
+                        <li>High-intensity interval training (HIIT)</li>
+                        <li>Metabolic conditioning</li>
+                        <li>Nutrition coaching and meal planning</li>
+                        <li>Body composition tracking</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <div class="program-image"><i class="fa-solid fa-bullseye"></i></div>
+                <div class="program-content">
+                    <h3>Personal Training</h3>
+                    <p>One-on-one coaching tailored to your specific goals, fitness level, and schedule.</p>
+                    <ul class="program-features">
+                        <li>Customized workout programs</li>
+                        <li>Dedicated trainer accountability</li>
+                        <li>Goal setting and progress tracking</li>
+                        <li>Flexible scheduling options</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <div class="program-image"><i class="fa-solid fa-users"></i></div>
+                <div class="program-content">
+                    <h3>Group Fitness Classes</h3>
+                    <p>High-energy group workouts that motivate, challenge, and build community.</p>
+                    <ul class="program-features">
+                        <li>Bootcamp and circuit training</li>
+                        <li>Spin and cardio classes</li>
+                        <li>Yoga and mobility sessions</li>
+                        <li>All fitness levels welcome</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <div class="program-image"><i class="fa-solid fa-bowl-food"></i></div>
+                <div class="program-content">
+                    <h3>Nutrition Coaching</h3>
+                    <p>Expert nutrition guidance to fuel your workouts and optimize your results.</p>
+                    <ul class="program-features">
+                        <li>Personalized meal plans</li>
+                        <li>Macro and calorie tracking</li>
+                        <li>Supplement recommendations</li>
+                        <li>Ongoing support and adjustments</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="program-card">
+                <div class="program-image"><i class="fa-solid fa-bolt"></i></div>
+                <div class="program-content">
+                    <h3>Athletic Performance</h3>
+                    <p>Sport-specific training to enhance speed, agility, power, and endurance.</p>
+                    <ul class="program-features">
+                        <li>Speed and agility drills</li>
+                        <li>Plyometric training</li>
+                        <li>Sports conditioning</li>
+                        <li>Injury prevention protocols</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers">
+        <div class="section-header">
+            <h2>MEET OUR <span class="highlight">TRAINERS</span></h2>
+            <p class="subtitle">Certified professionals dedicated to your success</p>
+        </div>
+        <div class="trainers-grid">
+            <div class="trainer-card">
+                <div class="trainer-image">
+                    <img src="/nexa-black-VZMBIwwc49E-unsplash.jpg" alt="Coach Emeka" />
+                </div>
+                <div class="trainer-info">
+                    <h3>Coach Emeka Okafor</h3>
+                    <p class="trainer-title">Head Strength Coach</p>
+                    <p class="trainer-specialties"><strong>Certifications:</strong> NSCA-CPT, ACE Certified<br>
+                    <strong>Specialties:</strong> Powerlifting, Hypertrophy Training, Sports Performance<br>
+                    <strong>Experience:</strong> 8+ years</p>
+                </div>
+            </div>
+
+            <div class="trainer-card">
+                <div class="trainer-image">
+                    <img src="/meagan-stone-r951FqxHTao-unsplash.jpg" alt="Coach Amina" />
+                </div>
+                <div class="trainer-info">
+                    <h3>Coach Amina Bello</h3>
+                    <p class="trainer-title">Weight Loss Specialist</p>
+                    <p class="trainer-specialties"><strong>Certifications:</strong> NASM-CPT, Precision Nutrition L1<br>
+                    <strong>Specialties:</strong> Fat Loss, HIIT, Nutrition Coaching<br>
+                    <strong>Experience:</strong> 6+ years</p>
+                </div>
+            </div>
+
+            <div class="trainer-card">
+                <div class="trainer-image">
+                    <img src="/eze-joseph-2OcLJk1ASO0-unsplash.jpg" alt="Coach Fatima" />
+                </div>
+                <div class="trainer-info">
+                    <h3>Coach Fatima Ibrahim</h3>
+                    <p class="trainer-title">Athletic Performance Coach</p>
+                    <p class="trainer-specialties"><strong>Certifications:</strong> CSCS, FMS Level 2<br>
+                    <strong>Specialties:</strong> Speed Training, Functional Movement, Injury Prevention<br>
+                    <strong>Experience:</strong> 10+ years</p>
+                </div>
+            </div>
+
+            <div class="trainer-card">
+                <div class="trainer-image">
+                    <img src="/ben-white-qM18dmqsTqk-unsplash.jpg" alt="Coach Tunde Adebayo" />
+                </div>
+                <div class="trainer-info">
+                    <h3>Coach Tunde Adebayo</h3>
+                    <p class="trainer-title">Group Fitness Instructor</p>
+                    <p class="trainer-specialties"><strong>Certifications:</strong> ACE-GFI, RYT-200 Yoga<br>
+                    <strong>Specialties:</strong> Bootcamp, Spin, Yoga, Mobility<br>
+                    <strong>Experience:</strong> 5+ years</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <div class="section-header">
+            <h2>MEMBERSHIP <span class="highlight">PLANS</span></h2>
+            <p class="subtitle">Flexible options to fit your lifestyle and budget</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>BASIC</h3>
+                <div class="price">₦15,000<span class="price-period">/month</span></div>
+                <ul class="pricing-features">
+                    <li>✓ Gym floor access</li>
+                    <li>✓ Free weights & machines</li>
+                    <li>✓ Cardio equipment</li>
+                    <li>✓ Locker & shower facilities</li>
+                    <li>✓ 2 group classes per month</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Get Started</a>
+            </div>
+
+            <div class="pricing-card featured">
+                <h3>PREMIUM</h3>
+                <div class="price">₦30,000<span class="price-period">/month</span></div>
+                <ul class="pricing-features">
+                    <li>✓ All Basic features</li>
+                    <li>✓ Unlimited group classes</li>
+                    <li>✓ 2 personal training sessions</li>
+                    <li>✓ Nutrition consultation</li>
+                    <li>✓ Body composition analysis</li>
+                    <li>✓ Priority class booking</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Most Popular</a>
+            </div>
+
+            <div class="pricing-card">
+                <h3>ELITE</h3>
+                <div class="price">₦60,000<span class="price-period">/month</span></div>
+                <ul class="pricing-features">
+                    <li>✓ All Premium features</li>
+                    <li>✓ 8 personal training sessions</li>
+                    <li>✓ Custom meal planning</li>
+                    <li>✓ Monthly progress assessments</li>
+                    <li>✓ Guest passes (2 per month)</li>
+                    <li>✓ Supplement discounts</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Go Elite</a>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <p style="color: var(--light-gray); font-size: 1.1rem;"> <strong>Special Offer:</strong> Get 7 days FREE trial on any membership plan!</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="section-header">
+            <h2>SUCCESS <span class="highlight">STORIES</span></h2>
+            <p class="subtitle">Real people. Real results. Real transformation.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p ="testimonial-quote">"I joined IronCore 6 months ago weighing 95kg with zero confidence. Today I'm 78kg, stronger than ever, and I feel incredible. The trainers here don't just teach you how to work out—they teach you how to change your life."</p>
+                <p class="testimonial-author">Chioma Nwosu</p>
+                <p class="testimonial-result">Lost 17kg in 6 months</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"As a former athlete, I thought I knew everything about training. IronCore showed me I had so much more to learn. The performance coaching here took my game to another level. I'm faster, stronger, and more explosive than I was in my college days."</p>
+                <p class="testimonial-author">David Okonkwo</p>
+                <p class="testimonial-result">Improved 40m sprint by 0.4 seconds</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"The group classes at IronCore are addictive! I never thought I'd be someone who looks forward to 6am workouts, but here I am. The community energy is unmatched, and Coach Fatima pushes us just the right amount. Best decision I made this year."</p>
+                <p class="testimonial-author">Blessing Adeyemi</p>
+                <p class="testimonial-result">Attended 120+ classes in 8 months</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"I was skeptical about personal training, but Coach Emeka completely changed my perspective. He created a program specifically for my goals and body type. I've gained 8kg of lean muscle and my confidence has skyrocketed. Worth every naira."</p>
+                <p class="testimonial-author">Olumide Hassan</p>
+                <p class="testimonial-result">Gained 8kg lean muscle in 5 months</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"After having my second child, I struggled with my weight and energy levels. IronCore's weight loss program, combined with nutrition coaching from Coach Amina, helped me lose 22kg. I have more energy now than I did in my twenties!"</p>
+                <p class="testimonial-author">Ngozi Mbah</p>
+                <p class="testimonial-result">Lost 22kg, reduced body fat by 12%</p>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"I've been to several gyms in Lagos, but nothing compares to IronCore. The equipment is top-notch, the facility is always clean, and the staff genuinely care about your progress. This is where champions are made."</p>
+                <p class="testimonial-author">Ibrahim Yusuf</p>
+                <p class="testimonial-result">Member for 2+ years</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>READY TO TRANSFORM YOUR LIFE?</h2>
+            <p>Join hundreds of members who are already building strength and confidence at IronCore Fitness</p>
+            <a href="#contact" class="btn btn-secondary" style="background: white; color: var(--primary);">Start Your Free 7-Day Trial</a>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="section-header">
+            <h2>GET <span class="highlight">STARTED</span></h2>
+            <p class="subtitle">Take the first step toward a stronger, healthier you</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Visit Us</h3>
+                <div class="info-item">
+                    <h4>Location</h4>
+                    <p>45 Fitness Avenue, Victoria Island<br>Lagos, Nigeria</p>
+                </div>
+                <div class="info-item">
+                    <h4>Phone</h4>
+                    <p>+234 812 345 6789<br>+234 901 234 5678</p>
+                </div>
+                <div class="info-item">
+                    <h4>Email</h4>
+                    <p>info@ironcorefitness.ng<br>support@ironcorefitness.ng</p>
+                </div>
+                <div class="info-item">
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Friday: 5:00 AM - 11:00 PM<br>
+                    Saturday - Sunday: 6:00 AM - 10:00 PM<br>
+                    <strong style="color: var(--primary);">24/7 Access for Elite Members</strong></p>
+                </div>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <div class="form-success" id="formSuccess">
+                    ✓ Thank you! We'll contact you within 24 hours to schedule your free trial.
+                </div>
+                <div class="form-error" id="formError">
+                    ✗ Something went wrong. Please try again or call us directly.
+                </div>
+                <form id="contactForm" action="https://formsubmit.co/mickedroms555@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New IronCore Fitness Inquiry">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="program">Interested In *</label>
+                        <select id="program" name="program" required>
+                            <option value="">Select a program...</option>
+                            <option value="Free Trial">7-Day Free Trial</option>
+                            <option value="Strength Training">Strength Training</option>
+                            <option value="Weight Loss">Weight Loss Program</option>
+                            <option value="Personal Training">Personal Training</option>
+                            <option value="Group Classes">Group Fitness Classes</option>
+                            <option value="Nutrition">Nutrition Coaching</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your fitness goals..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#programs">Programs</a>
+                <a href="#trainers">Trainers</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">© 2025 IronCore Fitness. All rights reserved. | Build Strength. Build Confidence.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
