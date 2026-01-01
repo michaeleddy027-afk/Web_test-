@@ -94,7 +94,7 @@ nav {
 .hero {
     min-height: 100vh;
     background: linear-gradient(135deg, rgba(10, 10, 10, 0.7), rgba(255, 69, 0, 0.3)), 
-                url('/mohamed-fareed-rbSNsoXk-3A-unsplash.jpg');
+                url('mohamed-fareed-rbSNsoXk-3A-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
